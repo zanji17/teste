@@ -9,35 +9,10 @@
             <conditions>
                 <condition id="-2" name="On start of layout" sid="634141583031056" type="System" />
             </conditions>
-            <actions>
-                <action behavior="Pin" id="0" name="Pin to object" sid="436539641458929" type="Placar">
-                    <param id="0" name="Pin to">heroi</param>
-                    <param id="1" name="Mode">0</param>
-                </action>
-                <action behavior="Pin" id="0" name="Pin to object" sid="679240936263607" type="Sprite3">
-                    <param id="0" name="Pin to">Sprite2</param>
-                    <param id="1" name="Mode">1</param>
-                </action>
-                <action id="-4" name="Set position to another object" sid="609910515449586" type="heroanimation">
-                    <param id="0" name="Object">heroi</param>
-                    <param id="1" name="Image point (optional)">0</param>
-                </action>
-                <action behavior="Pin" id="0" name="Pin to object" sid="399747414190905" type="heroanimation">
-                    <param id="0" name="Pin to">heroi</param>
-                    <param id="1" name="Mode">0</param>
-                </action>
-                <action behavior="Pin" id="0" name="Pin to object" sid="446386788418680" type="coracao">
-                    <param id="0" name="Pin to">heroi</param>
-                    <param id="1" name="Mode">0</param>
-                </action>
-            </actions>
+            <actions />
         </event-block>
         <event-block sid="933164210658062">
-            <conditions>
-                <condition id="0" name="On collision with another object" sid="682304450019497" type="heroi">
-                    <param id="0" name="Object">Inimigo</param>
-                </condition>
-            </conditions>
+            <conditions />
             <actions>
                 <action id="-11" name="Subtract from" sid="291690767015995" type="System">
                     <param id="0" name="Variable">vida</param>
@@ -46,11 +21,7 @@
             </actions>
         </event-block>
         <event-block sid="832503167430556">
-            <conditions>
-                <condition id="0" name="On collision with another object" sid="168411752267938" type="heroi">
-                    <param id="0" name="Object">Moeda</param>
-                </condition>
-            </conditions>
+            <conditions />
             <actions>
                 <action id="-9" name="Destroy" sid="986765152398722" type="Moeda" />
                 <action id="-10" name="Add to" sid="121495144928109" type="System">
@@ -75,9 +46,7 @@
             </actions>
         </event-block>
         <event-block sid="970703675926313">
-            <conditions>
-                <condition behavior="Platform" id="0" name="Is moving" sid="114883424513004" type="heroi" />
-            </conditions>
+            <conditions />
             <actions>
                 <action id="4" name="Set animation" sid="639193950314040" type="heroanimation">
                     <param id="0" name="Animation">&quot;andando&quot;</param>
@@ -129,9 +98,7 @@
             </actions>
         </event-block>
         <event-block sid="843779334754823">
-            <conditions>
-                <condition behavior="Platform" id="3" name="Is jumping" sid="748891486085251" type="heroi" />
-            </conditions>
+            <conditions />
             <actions>
                 <action id="4" name="Set animation" sid="193809094208557" type="heroanimation">
                     <param id="0" name="Animation">&quot;pulando&quot;</param>
@@ -140,9 +107,7 @@
             </actions>
         </event-block>
         <event-block sid="606683331818741">
-            <conditions>
-                <condition behavior="Platform" id="4" name="Is falling" sid="517491313567952" type="heroi" />
-            </conditions>
+            <conditions />
             <actions>
                 <action id="4" name="Set animation" sid="371770518740614" type="heroanimation">
                     <param id="0" name="Animation">&quot;caindo&quot;</param>
@@ -167,12 +132,7 @@
             </actions>
         </event-block>
         <event-block sid="876626709885462">
-            <conditions>
-                <condition id="-2" name="Compare Y" sid="219550362164534" type="heroi">
-                    <param id="0" name="Comparison">4</param>
-                    <param id="1" name="Y co-ordinate">600</param>
-                </condition>
-            </conditions>
+            <conditions />
             <actions>
                 <action id="-9" name="Set value" sid="251135817798682" type="System">
                     <param id="0" name="Variable">vida</param>
